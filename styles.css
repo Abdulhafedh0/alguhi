@@ -1,0 +1,31 @@
+/* Custom Styles */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #555;
+}
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+.hero .social-icons a {
+    font-size: 2em;
+}
+.about .img-fluid {
+    max-width: 200px;
+}
+.services .service-icon {
+    color: #007bff;
+}
+.skills .progress {
+    height: 20px;
+}
+.skills .progress-bar {
+    background-color: #333;
+}

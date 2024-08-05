@@ -4,7 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #555;
+    background: #474444;
+ 
 }
 .hero h2 {
     font-size: 3em;
@@ -28,4 +29,36 @@
 }
 .skills .progress-bar {
     background-color: #333;
+}
+
+
+
+/* ************************//*************** */
+
+.typing-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #ffffff;
+    border-right: 2px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.typing-text {
+    display: inline-block;
+    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: rgb(236, 230, 230); }
 }
